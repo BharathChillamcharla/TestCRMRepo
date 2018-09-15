@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Test the testcases]" parallel="tests">
+  <parameter name="browser" value="firefox"/>
+  <parameter name="version" value="43.0"/>
+  <parameter name="platform" value="Windows 8"/>
+  <test thread-count="5" name="FREECRM tests1(failed)" parallel="tests">
+    <classes>
+      <class name="com.crm.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="SetUp"/>
+          <include name="tearDown"/>
+          <include name="LoginPageTitleTest"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- FREECRM tests1(failed) -->
+</suite> <!-- Failed suite [Test the testcases] -->

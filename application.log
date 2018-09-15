@@ -1,0 +1,12 @@
+2018-09-15 16:47:20,001  INFO [TestNG-tests-2] LoginPageTest:49 - verifying the login page title
+2018-09-15 16:47:20,320  INFO [TestNG-tests-1] LoginPageTest:49 - verifying the login page title
+2018-09-15 16:47:20,547  INFO [TestNG-tests-2] LoginPageTest:74 - closing the browser
+2018-09-15 16:47:20,669  INFO [TestNG-tests-1] LoginPageTest:74 - closing the browser
+2018-09-15 16:47:33,930  INFO [TestNG-tests-2] LoginPageTest:56 - Entering username and password
+2018-09-15 16:47:38,207  INFO [TestNG-tests-2] LoginPageTest:74 - closing the browser
+2018-09-15 16:47:56,719  INFO [TestNG-tests-1] LoginPageTest:56 - Entering username and password
+2018-09-15 16:48:02,722  INFO [TestNG-tests-1] LoginPageTest:74 - closing the browser
+2018-09-15 16:48:16,101  INFO [TestNG-tests-2] LoginPageTest:74 - closing the browser
+2018-09-15 16:48:42,202  INFO [TestNG-tests-1] LoginPageTest:74 - closing the browser
+2018-09-15 16:48:59,541  INFO [TestNG-tests-2] LoginPageTest:74 - closing the browser
+2018-09-15 16:49:12,165  INFO [TestNG-tests-1] LoginPageTest:74 - closing the browser
