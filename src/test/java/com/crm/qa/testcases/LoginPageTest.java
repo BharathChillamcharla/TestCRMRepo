@@ -25,18 +25,10 @@ public class LoginPageTest extends TestBase{
 		
 	}
 
-	@Parameters({"platform","browser","version"})
+	
 	@BeforeMethod
-	public void SetUp(String platform,String browser,String version) throws IOException
+	public void SetUp() throws IOException
 	{
-		DesiredCapabilities cap=new DesiredCapabilities();
-		cap.setCapability("name", "cross_browser");
-		cap.setCapability("platform", platform);
-		cap.setCapability("browserName", browser);
-		cap.setCapability("version", version);
-		cap.setCapability("build", "Selenium_SauceLab_Cross_Parallel");
-		driver =new RemoteWebDriver(new URL(URL),cap);
-		driver.get(prop.getProperty("url"));
 		initialization();
 		loginpage=new LoginPage();
 		
@@ -47,7 +39,7 @@ public class LoginPageTest extends TestBase{
 	{
 		String title=loginpage.validatePageTitle();
 		log.info("verifying the login page title");
-		Assert.assertEquals(title, "#1 Free CRM software in the cloud for sales and service");
+		Assert.assertEquals(title, "CRMPRO - CRM software for customer relationship management, sales, and support.");
 				
 	}
 	@Test(priority=2)
@@ -62,9 +54,18 @@ public class LoginPageTest extends TestBase{
 		Assert.assertTrue(loginpage.validateFeaturesLink());
 	}
 	@Test(priority=4)
-	public void validateLinks()
+	public void validatePricingLink()
 	{
-		loginpage.validateLinks();
+		boolean result=loginpage.validatePricingLink();
+		Assert.assertEquals(result, true);
+		
+	}
+	@Test(priority=4)
+	public void validateSignUpLink()
+	{
+		boolean result=loginpage.validateSignupLink();
+		Assert.assertEquals(result, true);
+		
 	}
 	
 	@AfterMethod

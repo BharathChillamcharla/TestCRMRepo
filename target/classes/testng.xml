@@ -3,24 +3,13 @@
  
   
   <test name="FREECRM test1">
- <parameter name="platform" value="macOS 10.13"></parameter>
- <parameter name="browser" value="safari"></parameter>
- <parameter name="version" value="11.1"></parameter>
-    
+   
     <classes>
      <class name="com.crm.qa.testcases.LoginPageTest"> </class>
  </classes>
  </test>
 
-  <test name="FREECRM test">
- <parameter name="platform" value="Windows 8"></parameter>
- <parameter name="browser" value="firefox"></parameter>
- <parameter name="version" value="43.0"></parameter>
-   <classes>
-     <class name="com.crm.qa.testcases.LoginPageTest"> </class>
- </classes>
- </test>
-
+ 
 
 
 

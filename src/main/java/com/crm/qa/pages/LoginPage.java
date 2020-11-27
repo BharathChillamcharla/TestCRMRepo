@@ -52,13 +52,20 @@ public class LoginPage extends TestBase {
 	{
 		return FeaturesLink.isDisplayed();
 	}
-	public void validateLinks()
+	public boolean validatePricingLink()
 	{
-		 boolean pricingflag=PricingLink.isDisplayed();
-		 boolean Signupflag=SignupLink.isDisplayed();
+		 boolean Signupflag=PricingLink.isDisplayed();
+		 
+		return Signupflag;
 		
 	}
-	
+	public boolean validateSignupLink()
+	{
+		
+		boolean Signupflag=SignupLink.isDisplayed();
+		return Signupflag;
+		
+	}
 	public HomePage login(String un,String pwd) throws Exception 
 	{
 		

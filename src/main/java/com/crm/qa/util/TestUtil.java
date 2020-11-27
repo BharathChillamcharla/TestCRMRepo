@@ -20,7 +20,7 @@ public class TestUtil extends TestBase{
 	
 	public static long PAGE_LOAD_TIMEOUT = 50;
 	public static long IMPLICIT_LOAD_TIMEOUT =10;
-	public static String TESTDATA_SHEET_PATH="F:\\Sample Work Space\\TestCRMProject\\src\\main\\java\\com\\crm\\qa\\testdata\\FreeCRMTestData.xlsx";
+	public static String TESTDATA_SHEET_PATH="/Users/bharathchillamcharla/git/TestCRMRepo/src/main/java/com/crm/qa/testdata/FreeCRMTestData.xlsx";
 	static Workbook book;
 	static org.apache.poi.ss.usermodel.Sheet sheet;
 	
@@ -34,7 +34,7 @@ public class TestUtil extends TestBase{
 		File srcfile=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		String currentDir=System.getProperty("user.dir");
 		try {
-			FileUtils.copyFile(srcfile, new File(currentDir+"/screenshots/" + System.currentTimeMillis() +".png"));
+			FileUtils.copyFile(srcfile, new File(currentDir+"/screenshots/"+System.currentTimeMillis()+".png"));
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

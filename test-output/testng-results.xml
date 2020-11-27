@@ -1,249 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Test the testcases" duration-ms="130585" started-at="2018-09-15T11:17:01Z" finished-at="2018-09-15T11:19:12Z">
+  <suite name="Default suite" duration-ms="48348" started-at="2020-11-27T12:56:43Z" finished-at="2020-11-27T12:57:31Z">
     <groups>
     </groups>
-    <test name="FREECRM test" duration-ms="117961" started-at="2018-09-15T11:17:01Z" finished-at="2018-09-15T11:18:59Z">
+    <test name="Default test" duration-ms="48348" started-at="2020-11-27T12:56:43Z" finished-at="2020-11-27T12:57:31Z">
       <class name="com.crm.qa.testcases.LoginPageTest">
-        <test-method status="PASS" signature="SetUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.crm.qa.testcases.LoginPageTest@166fa74d]" name="SetUp" is-config="true" duration-ms="14374" started-at="2018-09-15T11:17:01Z" finished-at="2018-09-15T11:17:15Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Windows 8]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[43.0]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@4493d195]" name="SetUp" is-config="true" duration-ms="13663" started-at="2020-11-27T18:26:43Z" finished-at="2020-11-27T18:26:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method status="PASS" signature="LoginPageTitleTest()[pri:1, instance:com.crm.qa.testcases.LoginPageTest@166fa74d]" name="LoginPageTitleTest" duration-ms="4020" started-at="2018-09-15T11:17:15Z" finished-at="2018-09-15T11:17:20Z">
+        <test-method status="PASS" signature="LoginPageTitleTest()[pri:1, instance:com.crm.qa.testcases.LoginPageTest@4493d195]" name="LoginPageTitleTest" duration-ms="21" started-at="2020-11-27T18:26:57Z" finished-at="2020-11-27T18:26:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginPageTitleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@166fa74d]" name="tearDown" is-config="true" duration-ms="534" started-at="2018-09-15T11:17:20Z" finished-at="2018-09-15T11:17:20Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@4493d195]" name="tearDown" is-config="true" duration-ms="169" started-at="2020-11-27T18:26:57Z" finished-at="2020-11-27T18:26:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="SetUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.crm.qa.testcases.LoginPageTest@166fa74d]" name="SetUp" is-config="true" duration-ms="13374" started-at="2018-09-15T11:17:20Z" finished-at="2018-09-15T11:17:33Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Windows 8]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[43.0]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@4493d195]" name="SetUp" is-config="true" duration-ms="6371" started-at="2020-11-27T18:26:57Z" finished-at="2020-11-27T18:27:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method status="PASS" signature="loginTest()[pri:2, instance:com.crm.qa.testcases.LoginPageTest@166fa74d]" name="loginTest" duration-ms="3783" started-at="2018-09-15T11:17:33Z" finished-at="2018-09-15T11:17:37Z">
+        <test-method status="PASS" signature="loginTest()[pri:2, instance:com.crm.qa.testcases.LoginPageTest@4493d195]" name="loginTest" duration-ms="8124" started-at="2020-11-27T18:27:03Z" finished-at="2020-11-27T18:27:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@166fa74d]" name="tearDown" is-config="true" duration-ms="495" started-at="2018-09-15T11:17:37Z" finished-at="2018-09-15T11:17:38Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@4493d195]" name="tearDown" is-config="true" duration-ms="139" started-at="2020-11-27T18:27:11Z" finished-at="2020-11-27T18:27:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="SetUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.crm.qa.testcases.LoginPageTest@166fa74d]" name="SetUp" is-config="true" duration-ms="36150" started-at="2018-09-15T11:17:38Z" finished-at="2018-09-15T11:18:14Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Windows 8]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[43.0]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@4493d195]" name="SetUp" is-config="true" duration-ms="6096" started-at="2020-11-27T18:27:11Z" finished-at="2020-11-27T18:27:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method status="PASS" signature="FeaturesLinkTest()[pri:3, instance:com.crm.qa.testcases.LoginPageTest@166fa74d]" name="FeaturesLinkTest" duration-ms="1085" started-at="2018-09-15T11:18:14Z" finished-at="2018-09-15T11:18:15Z">
+        <test-method status="PASS" signature="FeaturesLinkTest()[pri:3, instance:com.crm.qa.testcases.LoginPageTest@4493d195]" name="FeaturesLinkTest" duration-ms="104" started-at="2020-11-27T18:27:18Z" finished-at="2020-11-27T18:27:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FeaturesLinkTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@166fa74d]" name="tearDown" is-config="true" duration-ms="650" started-at="2018-09-15T11:18:15Z" finished-at="2018-09-15T11:18:16Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@4493d195]" name="tearDown" is-config="true" duration-ms="157" started-at="2020-11-27T18:27:18Z" finished-at="2020-11-27T18:27:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="SetUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.crm.qa.testcases.LoginPageTest@166fa74d]" name="SetUp" is-config="true" duration-ms="38240" started-at="2018-09-15T11:18:16Z" finished-at="2018-09-15T11:18:54Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Windows 8]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[43.0]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@4493d195]" name="SetUp" is-config="true" duration-ms="6448" started-at="2020-11-27T18:27:18Z" finished-at="2020-11-27T18:27:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method status="PASS" signature="validateLinks()[pri:4, instance:com.crm.qa.testcases.LoginPageTest@166fa74d]" name="validateLinks" duration-ms="3113" started-at="2018-09-15T11:18:54Z" finished-at="2018-09-15T11:18:57Z">
+        <test-method status="PASS" signature="validatePricingLink()[pri:4, instance:com.crm.qa.testcases.LoginPageTest@4493d195]" name="validatePricingLink" duration-ms="57" started-at="2020-11-27T18:27:24Z" finished-at="2020-11-27T18:27:24Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateLinks -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@166fa74d]" name="tearDown" is-config="true" duration-ms="2081" started-at="2018-09-15T11:18:57Z" finished-at="2018-09-15T11:18:59Z">
+        </test-method> <!-- validatePricingLink -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@4493d195]" name="tearDown" is-config="true" duration-ms="173" started-at="2020-11-27T18:27:24Z" finished-at="2020-11-27T18:27:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@4493d195]" name="SetUp" is-config="true" duration-ms="6535" started-at="2020-11-27T18:27:24Z" finished-at="2020-11-27T18:27:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="validateSignUpLink()[pri:4, instance:com.crm.qa.testcases.LoginPageTest@4493d195]" name="validateSignUpLink" duration-ms="95" started-at="2020-11-27T18:27:31Z" finished-at="2020-11-27T18:27:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSignUpLink -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@4493d195]" name="tearDown" is-config="true" duration-ms="162" started-at="2020-11-27T18:27:31Z" finished-at="2020-11-27T18:27:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.crm.qa.testcases.LoginPageTest -->
-    </test> <!-- FREECRM test -->
-    <test name="FREECRM test1" duration-ms="130585" started-at="2018-09-15T11:17:01Z" finished-at="2018-09-15T11:19:12Z">
-      <class name="com.crm.qa.testcases.LoginPageTest">
-        <test-method status="PASS" signature="SetUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.crm.qa.testcases.LoginPageTest@43d7741f]" name="SetUp" is-config="true" duration-ms="17733" started-at="2018-09-15T11:17:01Z" finished-at="2018-09-15T11:17:19Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[macOS 10.13]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[safari]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[11.1]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SetUp -->
-        <test-method status="PASS" signature="LoginPageTitleTest()[pri:1, instance:com.crm.qa.testcases.LoginPageTest@43d7741f]" name="LoginPageTitleTest" duration-ms="973" started-at="2018-09-15T11:17:19Z" finished-at="2018-09-15T11:17:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginPageTitleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@43d7741f]" name="tearDown" is-config="true" duration-ms="343" started-at="2018-09-15T11:17:20Z" finished-at="2018-09-15T11:17:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="SetUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.crm.qa.testcases.LoginPageTest@43d7741f]" name="SetUp" is-config="true" duration-ms="36045" started-at="2018-09-15T11:17:20Z" finished-at="2018-09-15T11:17:56Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[macOS 10.13]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[safari]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[11.1]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SetUp -->
-        <test-method status="PASS" signature="loginTest()[pri:2, instance:com.crm.qa.testcases.LoginPageTest@43d7741f]" name="loginTest" duration-ms="5492" started-at="2018-09-15T11:17:56Z" finished-at="2018-09-15T11:18:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@43d7741f]" name="tearDown" is-config="true" duration-ms="512" started-at="2018-09-15T11:18:02Z" finished-at="2018-09-15T11:18:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="SetUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.crm.qa.testcases.LoginPageTest@43d7741f]" name="SetUp" is-config="true" duration-ms="37365" started-at="2018-09-15T11:18:02Z" finished-at="2018-09-15T11:18:40Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[macOS 10.13]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[safari]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[11.1]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SetUp -->
-        <test-method status="PASS" signature="FeaturesLinkTest()[pri:3, instance:com.crm.qa.testcases.LoginPageTest@43d7741f]" name="FeaturesLinkTest" duration-ms="1525" started-at="2018-09-15T11:18:40Z" finished-at="2018-09-15T11:18:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- FeaturesLinkTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@43d7741f]" name="tearDown" is-config="true" duration-ms="581" started-at="2018-09-15T11:18:41Z" finished-at="2018-09-15T11:18:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="SetUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.crm.qa.testcases.LoginPageTest@43d7741f]" name="SetUp" is-config="true" duration-ms="27194" started-at="2018-09-15T11:18:42Z" finished-at="2018-09-15T11:19:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[macOS 10.13]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[safari]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[11.1]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SetUp -->
-        <test-method status="PASS" signature="validateLinks()[pri:4, instance:com.crm.qa.testcases.LoginPageTest@43d7741f]" name="validateLinks" duration-ms="2038" started-at="2018-09-15T11:19:09Z" finished-at="2018-09-15T11:19:11Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateLinks -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@43d7741f]" name="tearDown" is-config="true" duration-ms="728" started-at="2018-09-15T11:19:11Z" finished-at="2018-09-15T11:19:12Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.crm.qa.testcases.LoginPageTest -->
-    </test> <!-- FREECRM test1 -->
-  </suite> <!-- Test the testcases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
