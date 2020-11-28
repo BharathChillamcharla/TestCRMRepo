@@ -56,6 +56,7 @@ public class LoginPageTest extends TestBase{
 	@Test(priority=4)
 	public void validatePricingLink()
 	{
+		
 		boolean result=loginpage.validatePricingLink();
 		Assert.assertEquals(result, true);
 		
