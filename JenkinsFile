@@ -1,0 +1,40 @@
+pipeline {
+agent any
+   stages {
+         stage ("Build") {
+                 steps{
+                      echo 'Building'
+                     }
+          }
+	stage ("Deploy to QA") {
+                 steps{
+                      echo 'Deploy to QA'
+                     }
+          }
+	stage ("Test on QA") {
+                 steps{
+                      echo 'Regression test  on QA'
+                     }
+          }
+	stage ("Deploy to Stage") {
+                 steps{
+                      echo 'Deploying to Stage'
+                     }
+          }
+	stage ("Test on Stage") {
+                 steps{
+                      echo 'Sanity Test on Stage'
+                     }
+          }
+	stage ("Deploy to Prod") {
+                 steps{
+                      echo 'Deploying to Prod'
+                     }
+          }
+	stage ("Monitor Prod") {
+                 steps{
+                      echo 'Monitor Prod logs'
+                     }
+          }
+}
+}
