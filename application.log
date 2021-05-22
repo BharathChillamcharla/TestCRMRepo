@@ -1,74 +1,173 @@
-2020-11-28 19:54:02,119 DEBUG [TestNG-tests-1] InternalLoggerFactory:53 - Using Log4J as the default logging framework
-2020-11-28 19:54:02,130 DEBUG [TestNG-tests-1] ResourceLeakDetector:130 - -Dio.netty.leakDetection.level: simple
-2020-11-28 19:54:02,132 DEBUG [TestNG-tests-1] ResourceLeakDetector:131 - -Dio.netty.leakDetection.targetRecords: 4
-2020-11-28 19:54:02,140 DEBUG [TestNG-tests-1] ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@21b7addf
-2020-11-28 19:54:02,162 DEBUG [TestNG-tests-1] PlatformDependent:1039 - Platform: MacOS
-2020-11-28 19:54:02,164 DEBUG [TestNG-tests-1] PlatformDependent0:417 - -Dio.netty.noUnsafe: false
-2020-11-28 19:54:02,165 DEBUG [TestNG-tests-1] PlatformDependent0:889 - Java version: 8
-2020-11-28 19:54:02,166 DEBUG [TestNG-tests-1] PlatformDependent0:130 - sun.misc.Unsafe.theUnsafe: available
-2020-11-28 19:54:02,167 DEBUG [TestNG-tests-1] PlatformDependent0:154 - sun.misc.Unsafe.copyMemory: available
-2020-11-28 19:54:02,169 DEBUG [TestNG-tests-1] PlatformDependent0:192 - java.nio.Buffer.address: available
-2020-11-28 19:54:02,170 DEBUG [TestNG-tests-1] PlatformDependent0:257 - direct buffer constructor: available
-2020-11-28 19:54:02,172 DEBUG [TestNG-tests-1] PlatformDependent0:331 - java.nio.Bits.unaligned: available, true
-2020-11-28 19:54:02,172 DEBUG [TestNG-tests-1] PlatformDependent0:396 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
-2020-11-28 19:54:02,172 DEBUG [TestNG-tests-1] PlatformDependent0:403 - java.nio.DirectByteBuffer.<init>(long, int): available
-2020-11-28 19:54:02,176 DEBUG [TestNG-tests-1] PlatformDependent:1071 - sun.misc.Unsafe: available
-2020-11-28 19:54:02,178 DEBUG [TestNG-tests-1] PlatformDependent:1192 - -Dio.netty.tmpdir: /var/folders/9q/qbbvhtws7sl6d34bww4l725m0000gn/T (java.io.tmpdir)
-2020-11-28 19:54:02,181 DEBUG [TestNG-tests-1] PlatformDependent:1271 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
-2020-11-28 19:54:02,184 DEBUG [TestNG-tests-1] PlatformDependent:177 - -Dio.netty.maxDirectMemory: 1908932608 bytes
-2020-11-28 19:54:02,184 DEBUG [TestNG-tests-1] PlatformDependent:184 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
-2020-11-28 19:54:02,186 DEBUG [TestNG-tests-1] CleanerJava6:92 - java.nio.ByteBuffer.cleaner(): available
-2020-11-28 19:54:02,186 DEBUG [TestNG-tests-1] PlatformDependent:204 - -Dio.netty.noPreferDirect: false
-2020-11-28 19:54:02,197 DEBUG [TestNG-tests-1] PlatformDependent:932 - org.jctools-core.MpscChunkedArrayQueue: available
-2020-11-28 19:54:02,216 DEBUG [TestNG-tests-1] InternalThreadLocalMap:56 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
-2020-11-28 19:54:02,216 DEBUG [TestNG-tests-1] InternalThreadLocalMap:59 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
-2020-11-28 19:54:02,243 DEBUG [TestNG-tests-1] JdkSslContext:96 - Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1] 
-2020-11-28 19:54:02,244 DEBUG [TestNG-tests-1] JdkSslContext:97 - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA]
-2020-11-28 19:54:02,280 DEBUG [TestNG-tests-1] MultithreadEventLoopGroup:44 - -Dio.netty.eventLoopThreads: 8
-2020-11-28 19:54:02,288 DEBUG [TestNG-tests-1] NioEventLoop:106 - -Dio.netty.noKeySetOptimization: false
-2020-11-28 19:54:02,289 DEBUG [TestNG-tests-1] NioEventLoop:107 - -Dio.netty.selectorAutoRebuildThreshold: 512
-2020-11-28 19:54:02,316 DEBUG [TestNG-tests-1] PooledByteBufAllocator:154 - -Dio.netty.allocator.numHeapArenas: 8
-2020-11-28 19:54:02,317 DEBUG [TestNG-tests-1] PooledByteBufAllocator:155 - -Dio.netty.allocator.numDirectArenas: 8
-2020-11-28 19:54:02,317 DEBUG [TestNG-tests-1] PooledByteBufAllocator:157 - -Dio.netty.allocator.pageSize: 8192
-2020-11-28 19:54:02,317 DEBUG [TestNG-tests-1] PooledByteBufAllocator:162 - -Dio.netty.allocator.maxOrder: 11
-2020-11-28 19:54:02,318 DEBUG [TestNG-tests-1] PooledByteBufAllocator:166 - -Dio.netty.allocator.chunkSize: 16777216
-2020-11-28 19:54:02,318 DEBUG [TestNG-tests-1] PooledByteBufAllocator:167 - -Dio.netty.allocator.smallCacheSize: 256
-2020-11-28 19:54:02,319 DEBUG [TestNG-tests-1] PooledByteBufAllocator:168 - -Dio.netty.allocator.normalCacheSize: 64
-2020-11-28 19:54:02,319 DEBUG [TestNG-tests-1] PooledByteBufAllocator:169 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
-2020-11-28 19:54:02,320 DEBUG [TestNG-tests-1] PooledByteBufAllocator:170 - -Dio.netty.allocator.cacheTrimInterval: 8192
-2020-11-28 19:54:02,320 DEBUG [TestNG-tests-1] PooledByteBufAllocator:171 - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
-2020-11-28 19:54:02,320 DEBUG [TestNG-tests-1] PooledByteBufAllocator:172 - -Dio.netty.allocator.useCacheForAllThreads: true
-2020-11-28 19:54:02,321 DEBUG [TestNG-tests-1] PooledByteBufAllocator:173 - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
-2020-11-28 19:54:02,334 DEBUG [TestNG-tests-1] ByteBufUtil:87 - -Dio.netty.allocator.type: pooled
-2020-11-28 19:54:02,335 DEBUG [TestNG-tests-1] ByteBufUtil:96 - -Dio.netty.threadLocalDirectBufferSize: 0
-2020-11-28 19:54:02,335 DEBUG [TestNG-tests-1] ByteBufUtil:99 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
-2020-11-28 19:54:07,887 DEBUG [Forwarding newSession on session null to remote] DefaultChannelId:79 - -Dio.netty.processId: 2294 (auto-detected)
-2020-11-28 19:54:07,894 DEBUG [Forwarding newSession on session null to remote] NetUtil:139 - -Djava.net.preferIPv4Stack: false
-2020-11-28 19:54:07,894 DEBUG [Forwarding newSession on session null to remote] NetUtil:140 - -Djava.net.preferIPv6Addresses: false
-2020-11-28 19:54:07,897 DEBUG [Forwarding newSession on session null to remote] NetUtil:224 - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1%lo0)
-2020-11-28 19:54:07,899 DEBUG [Forwarding newSession on session null to remote] NetUtil:289 - Failed to get SOMAXCONN from sysctl and file /proc/sys/net/core/somaxconn. Default: 128
-2020-11-28 19:54:07,901 DEBUG [Forwarding newSession on session null to remote] DefaultChannelId:101 - -Dio.netty.machineId: 24:d0:df:ff:fe:b2:e1:da (auto-detected)
-2020-11-28 19:54:07,952 DEBUG [AsyncHttpClient-1-2] AbstractByteBuf:63 - -Dio.netty.buffer.checkAccessible: true
-2020-11-28 19:54:07,952 DEBUG [AsyncHttpClient-1-2] AbstractByteBuf:64 - -Dio.netty.buffer.checkBounds: true
-2020-11-28 19:54:07,953 DEBUG [AsyncHttpClient-1-2] ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@686d9016
-2020-11-28 19:54:07,978 DEBUG [AsyncHttpClient-1-2] Recycler:100 - -Dio.netty.recycler.maxCapacityPerThread: 4096
-2020-11-28 19:54:07,979 DEBUG [AsyncHttpClient-1-2] Recycler:101 - -Dio.netty.recycler.maxSharedCapacityFactor: 2
-2020-11-28 19:54:07,979 DEBUG [AsyncHttpClient-1-2] Recycler:102 - -Dio.netty.recycler.linkCapacity: 16
-2020-11-28 19:54:07,979 DEBUG [AsyncHttpClient-1-2] Recycler:103 - -Dio.netty.recycler.ratio: 8
-2020-11-28 19:54:07,979 DEBUG [AsyncHttpClient-1-2] Recycler:104 - -Dio.netty.recycler.delayedQueue.ratio: 8
-2020-11-28 19:54:09,748 DEBUG [TestNG-tests-1] ThreadLocalRandom:212 - -Dio.netty.initialSeedUniquifier: 0x79279835ba3074fd
-2020-11-28 19:54:14,917  INFO [TestNG-tests-1] LoginPageTest:41 - verifying the login page title
-2020-11-28 19:54:15,067  INFO [TestNG-tests-1] LoginPageTest:76 - closing the browser
-2020-11-28 19:54:21,346  INFO [TestNG-tests-1] LoginPageTest:48 - Entering username and password
-2020-11-28 19:54:28,751  INFO [TestNG-tests-1] LoginPageTest:76 - closing the browser
-2020-11-28 19:54:35,534  INFO [TestNG-tests-1] LoginPageTest:76 - closing the browser
-2020-11-28 19:54:42,229  INFO [TestNG-tests-1] LoginPageTest:76 - closing the browser
-2020-11-28 19:54:48,680  INFO [TestNG-tests-1] LoginPageTest:76 - closing the browser
-2020-11-28 19:54:58,834 DEBUG [AsyncHttpClient-1-2] PoolThreadCache:229 - Freed 13 thread-local buffer(s) from thread: AsyncHttpClient-1-2
-2020-11-28 19:54:58,836 DEBUG [AsyncHttpClient-1-4] PoolThreadCache:229 - Freed 4 thread-local buffer(s) from thread: AsyncHttpClient-1-4
-2020-11-28 19:54:58,836 DEBUG [AsyncHttpClient-1-7] PoolThreadCache:229 - Freed 4 thread-local buffer(s) from thread: AsyncHttpClient-1-7
-2020-11-28 19:54:58,837 DEBUG [AsyncHttpClient-1-3] PoolThreadCache:229 - Freed 17 thread-local buffer(s) from thread: AsyncHttpClient-1-3
-2020-11-28 19:54:58,835 DEBUG [AsyncHttpClient-1-9] PoolThreadCache:229 - Freed 2 thread-local buffer(s) from thread: AsyncHttpClient-1-9
-2020-11-28 19:54:58,843 DEBUG [AsyncHttpClient-1-5] PoolThreadCache:229 - Freed 23 thread-local buffer(s) from thread: AsyncHttpClient-1-5
-2020-11-28 19:54:58,843 DEBUG [AsyncHttpClient-1-8] PoolThreadCache:229 - Freed 17 thread-local buffer(s) from thread: AsyncHttpClient-1-8
-2020-11-28 19:54:58,843 DEBUG [AsyncHttpClient-1-6] PoolThreadCache:229 - Freed 17 thread-local buffer(s) from thread: AsyncHttpClient-1-6
+2020-12-02 20:12:29,542 DEBUG [TestNG-tests-1] InternalLoggerFactory:53 - Using Log4J as the default logging framework
+2020-12-02 20:12:29,554 DEBUG [TestNG-tests-1] ResourceLeakDetector:130 - -Dio.netty.leakDetection.level: simple
+2020-12-02 20:12:29,555 DEBUG [TestNG-tests-1] ResourceLeakDetector:131 - -Dio.netty.leakDetection.targetRecords: 4
+2020-12-02 20:12:29,563 DEBUG [TestNG-tests-1] ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@50ecdca1
+2020-12-02 20:12:29,603 DEBUG [TestNG-tests-1] PlatformDependent:1039 - Platform: MacOS
+2020-12-02 20:12:29,606 DEBUG [TestNG-tests-1] PlatformDependent0:417 - -Dio.netty.noUnsafe: false
+2020-12-02 20:12:29,606 DEBUG [TestNG-tests-1] PlatformDependent0:889 - Java version: 15
+2020-12-02 20:12:29,610 DEBUG [TestNG-tests-1] PlatformDependent0:130 - sun.misc.Unsafe.theUnsafe: available
+2020-12-02 20:12:29,612 DEBUG [TestNG-tests-1] PlatformDependent0:154 - sun.misc.Unsafe.copyMemory: available
+2020-12-02 20:12:29,613 DEBUG [TestNG-tests-1] PlatformDependent0:192 - java.nio.Buffer.address: available
+2020-12-02 20:12:29,615 DEBUG [TestNG-tests-1] PlatformDependent0:266 - direct buffer constructor: unavailable
+java.lang.UnsupportedOperationException: Reflective setAccessible(true) disabled
+	at io.netty.util.internal.ReflectionUtil.trySetAccessible(ReflectionUtil.java:31)
+	at io.netty.util.internal.PlatformDependent0$4.run(PlatformDependent0.java:238)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:312)
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:232)
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:293)
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:92)
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:109)
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:218)
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:197)
+	at org.asynchttpclient.DefaultAsyncHttpClient.newNettyTimer(DefaultAsyncHttpClient.java:111)
+	at org.asynchttpclient.DefaultAsyncHttpClient.<init>(DefaultAsyncHttpClient.java:90)
+	at org.asynchttpclient.Dsl.asyncHttpClient(Dsl.java:32)
+	at org.openqa.selenium.remote.http.netty.NettyClient.<clinit>(NettyClient.java:42)
+	at org.openqa.selenium.remote.http.netty.NettyClient$Factory.createClient(NettyClient.java:107)
+	at org.openqa.selenium.remote.http.HttpClient$Factory.createClient(HttpClient.java:80)
+	at org.openqa.selenium.remote.HttpCommandExecutor.<init>(HttpCommandExecutor.java:90)
+	at org.openqa.selenium.remote.HttpCommandExecutor.<init>(HttpCommandExecutor.java:73)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.<init>(DriverCommandExecutor.java:67)
+	at org.openqa.selenium.chromium.ChromiumDriverCommandExecutor.<init>(ChromiumDriverCommandExecutor.java:78)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:163)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:150)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:105)
+	at com.crm.qa.base.TestBase.initialization(TestBase.java:75)
+	at com.crm.qa.testcases.LoginPageTest.SetUp(LoginPageTest.java:32)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2020-12-02 20:12:29,623 DEBUG [TestNG-tests-1] PlatformDependent0:331 - java.nio.Bits.unaligned: available, true
+2020-12-02 20:12:29,626 DEBUG [TestNG-tests-1] PlatformDependent0:390 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
+java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @3c8876a0
+	at java.base/jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:385)
+	at java.base/java.lang.reflect.AccessibleObject.checkAccess(AccessibleObject.java:693)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:556)
+	at io.netty.util.internal.PlatformDependent0$6.run(PlatformDependent0.java:352)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:312)
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:343)
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:293)
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:92)
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:109)
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:218)
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:197)
+	at org.asynchttpclient.DefaultAsyncHttpClient.newNettyTimer(DefaultAsyncHttpClient.java:111)
+	at org.asynchttpclient.DefaultAsyncHttpClient.<init>(DefaultAsyncHttpClient.java:90)
+	at org.asynchttpclient.Dsl.asyncHttpClient(Dsl.java:32)
+	at org.openqa.selenium.remote.http.netty.NettyClient.<clinit>(NettyClient.java:42)
+	at org.openqa.selenium.remote.http.netty.NettyClient$Factory.createClient(NettyClient.java:107)
+	at org.openqa.selenium.remote.http.HttpClient$Factory.createClient(HttpClient.java:80)
+	at org.openqa.selenium.remote.HttpCommandExecutor.<init>(HttpCommandExecutor.java:90)
+	at org.openqa.selenium.remote.HttpCommandExecutor.<init>(HttpCommandExecutor.java:73)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.<init>(DriverCommandExecutor.java:67)
+	at org.openqa.selenium.chromium.ChromiumDriverCommandExecutor.<init>(ChromiumDriverCommandExecutor.java:78)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:163)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:150)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:105)
+	at com.crm.qa.base.TestBase.initialization(TestBase.java:75)
+	at com.crm.qa.testcases.LoginPageTest.SetUp(LoginPageTest.java:32)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2020-12-02 20:12:29,628 DEBUG [TestNG-tests-1] PlatformDependent0:403 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2020-12-02 20:12:29,628 DEBUG [TestNG-tests-1] PlatformDependent:1071 - sun.misc.Unsafe: available
+2020-12-02 20:12:29,635 DEBUG [TestNG-tests-1] PlatformDependent:1173 - maxDirectMemory: 2147483648 bytes (maybe)
+2020-12-02 20:12:29,637 DEBUG [TestNG-tests-1] PlatformDependent:1192 - -Dio.netty.tmpdir: /var/folders/9q/qbbvhtws7sl6d34bww4l725m0000gn/T (java.io.tmpdir)
+2020-12-02 20:12:29,639 DEBUG [TestNG-tests-1] PlatformDependent:1271 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2020-12-02 20:12:29,643 DEBUG [TestNG-tests-1] PlatformDependent:177 - -Dio.netty.maxDirectMemory: -1 bytes
+2020-12-02 20:12:29,644 DEBUG [TestNG-tests-1] PlatformDependent:184 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2020-12-02 20:12:29,646 DEBUG [TestNG-tests-1] CleanerJava9:71 - java.nio.ByteBuffer.cleaner(): available
+2020-12-02 20:12:29,646 DEBUG [TestNG-tests-1] PlatformDependent:204 - -Dio.netty.noPreferDirect: false
+2020-12-02 20:12:29,669 DEBUG [TestNG-tests-1] PlatformDependent:932 - org.jctools-core.MpscChunkedArrayQueue: available
+2020-12-02 20:12:29,732 DEBUG [TestNG-tests-1] InternalThreadLocalMap:56 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2020-12-02 20:12:29,733 DEBUG [TestNG-tests-1] InternalThreadLocalMap:59 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2020-12-02 20:12:29,773 DEBUG [TestNG-tests-1] JdkSslContext:96 - Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1] 
+2020-12-02 20:12:29,773 DEBUG [TestNG-tests-1] JdkSslContext:97 - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+2020-12-02 20:12:29,852 DEBUG [TestNG-tests-1] MultithreadEventLoopGroup:44 - -Dio.netty.eventLoopThreads: 8
+2020-12-02 20:12:29,881 DEBUG [TestNG-tests-1] NioEventLoop:106 - -Dio.netty.noKeySetOptimization: false
+2020-12-02 20:12:29,882 DEBUG [TestNG-tests-1] NioEventLoop:107 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2020-12-02 20:12:29,958 DEBUG [TestNG-tests-1] PooledByteBufAllocator:154 - -Dio.netty.allocator.numHeapArenas: 8
+2020-12-02 20:12:29,959 DEBUG [TestNG-tests-1] PooledByteBufAllocator:155 - -Dio.netty.allocator.numDirectArenas: 8
+2020-12-02 20:12:29,960 DEBUG [TestNG-tests-1] PooledByteBufAllocator:157 - -Dio.netty.allocator.pageSize: 8192
+2020-12-02 20:12:29,961 DEBUG [TestNG-tests-1] PooledByteBufAllocator:162 - -Dio.netty.allocator.maxOrder: 11
+2020-12-02 20:12:29,961 DEBUG [TestNG-tests-1] PooledByteBufAllocator:166 - -Dio.netty.allocator.chunkSize: 16777216
+2020-12-02 20:12:29,962 DEBUG [TestNG-tests-1] PooledByteBufAllocator:167 - -Dio.netty.allocator.smallCacheSize: 256
+2020-12-02 20:12:29,962 DEBUG [TestNG-tests-1] PooledByteBufAllocator:168 - -Dio.netty.allocator.normalCacheSize: 64
+2020-12-02 20:12:29,962 DEBUG [TestNG-tests-1] PooledByteBufAllocator:169 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2020-12-02 20:12:29,963 DEBUG [TestNG-tests-1] PooledByteBufAllocator:170 - -Dio.netty.allocator.cacheTrimInterval: 8192
+2020-12-02 20:12:29,963 DEBUG [TestNG-tests-1] PooledByteBufAllocator:171 - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2020-12-02 20:12:29,963 DEBUG [TestNG-tests-1] PooledByteBufAllocator:172 - -Dio.netty.allocator.useCacheForAllThreads: true
+2020-12-02 20:12:29,964 DEBUG [TestNG-tests-1] PooledByteBufAllocator:173 - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2020-12-02 20:12:29,988 DEBUG [TestNG-tests-1] ByteBufUtil:87 - -Dio.netty.allocator.type: pooled
+2020-12-02 20:12:29,988 DEBUG [TestNG-tests-1] ByteBufUtil:96 - -Dio.netty.threadLocalDirectBufferSize: 0
+2020-12-02 20:12:29,989 DEBUG [TestNG-tests-1] ByteBufUtil:99 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2020-12-02 20:12:35,764 DEBUG [Forwarding newSession on session null to remote] DefaultChannelId:79 - -Dio.netty.processId: 1867 (auto-detected)
+2020-12-02 20:12:35,769 DEBUG [Forwarding newSession on session null to remote] NetUtil:139 - -Djava.net.preferIPv4Stack: false
+2020-12-02 20:12:35,769 DEBUG [Forwarding newSession on session null to remote] NetUtil:140 - -Djava.net.preferIPv6Addresses: false
+2020-12-02 20:12:35,776 DEBUG [Forwarding newSession on session null to remote] NetUtil:224 - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1%lo0)
+2020-12-02 20:12:35,777 DEBUG [Forwarding newSession on session null to remote] NetUtil:289 - Failed to get SOMAXCONN from sysctl and file /proc/sys/net/core/somaxconn. Default: 128
+2020-12-02 20:12:35,780 DEBUG [Forwarding newSession on session null to remote] DefaultChannelId:101 - -Dio.netty.machineId: 24:d0:df:ff:fe:b2:e1:da (auto-detected)
+2020-12-02 20:12:35,894 DEBUG [AsyncHttpClient-1-2] AbstractByteBuf:63 - -Dio.netty.buffer.checkAccessible: true
+2020-12-02 20:12:35,895 DEBUG [AsyncHttpClient-1-2] AbstractByteBuf:64 - -Dio.netty.buffer.checkBounds: true
+2020-12-02 20:12:35,895 DEBUG [AsyncHttpClient-1-2] ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@50cec9e8
+2020-12-02 20:12:35,934 DEBUG [AsyncHttpClient-1-2] Recycler:100 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2020-12-02 20:12:35,934 DEBUG [AsyncHttpClient-1-2] Recycler:101 - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2020-12-02 20:12:35,934 DEBUG [AsyncHttpClient-1-2] Recycler:102 - -Dio.netty.recycler.linkCapacity: 16
+2020-12-02 20:12:35,934 DEBUG [AsyncHttpClient-1-2] Recycler:103 - -Dio.netty.recycler.ratio: 8
+2020-12-02 20:12:35,935 DEBUG [AsyncHttpClient-1-2] Recycler:104 - -Dio.netty.recycler.delayedQueue.ratio: 8
+2020-12-02 20:12:37,300 DEBUG [TestNG-tests-1] ThreadLocalRandom:212 - -Dio.netty.initialSeedUniquifier: 0xbe04bc8dc22ea6ed
+2020-12-02 20:12:42,377  INFO [TestNG-tests-1] LoginPageTest:41 - verifying the login page title
+2020-12-02 20:12:42,485  INFO [TestNG-tests-1] LoginPageTest:76 - closing the browser
+2020-12-02 20:12:48,860  INFO [TestNG-tests-1] LoginPageTest:48 - Entering username and password
+2020-12-02 20:12:57,012  INFO [TestNG-tests-1] LoginPageTest:76 - closing the browser
+2020-12-02 20:13:03,166  INFO [TestNG-tests-1] LoginPageTest:76 - closing the browser
+2020-12-02 20:13:09,335  INFO [TestNG-tests-1] LoginPageTest:76 - closing the browser
+2020-12-02 20:13:15,471  INFO [TestNG-tests-1] LoginPageTest:76 - closing the browser
+2020-12-02 20:13:20,632 DEBUG [AsyncHttpClient-1-2] PoolThreadCache:229 - Freed 13 thread-local buffer(s) from thread: AsyncHttpClient-1-2
+2020-12-02 20:13:20,633 DEBUG [AsyncHttpClient-1-7] PoolThreadCache:229 - Freed 4 thread-local buffer(s) from thread: AsyncHttpClient-1-7
+2020-12-02 20:13:20,634 DEBUG [AsyncHttpClient-1-8] PoolThreadCache:229 - Freed 17 thread-local buffer(s) from thread: AsyncHttpClient-1-8
+2020-12-02 20:13:20,635 DEBUG [AsyncHttpClient-1-9] PoolThreadCache:229 - Freed 2 thread-local buffer(s) from thread: AsyncHttpClient-1-9
+2020-12-02 20:13:20,632 DEBUG [AsyncHttpClient-1-4] PoolThreadCache:229 - Freed 4 thread-local buffer(s) from thread: AsyncHttpClient-1-4
+2020-12-02 20:13:20,638 DEBUG [AsyncHttpClient-1-6] PoolThreadCache:229 - Freed 17 thread-local buffer(s) from thread: AsyncHttpClient-1-6
+2020-12-02 20:13:20,639 DEBUG [AsyncHttpClient-1-5] PoolThreadCache:229 - Freed 23 thread-local buffer(s) from thread: AsyncHttpClient-1-5
+2020-12-02 20:13:20,637 DEBUG [AsyncHttpClient-1-3] PoolThreadCache:229 - Freed 17 thread-local buffer(s) from thread: AsyncHttpClient-1-3

@@ -39,7 +39,8 @@ public class LoginPageTest extends TestBase{
 	{
 		String title=loginpage.validatePageTitle();
 		log.info("verifying the login page title");
-		Assert.assertEquals(title, "CRMPRO - CRM software for customer relationship management, sales, and support.");
+		System.out.println("loginpage title");
+	Assert.assertEquals(title, "CRMPRO - CRM software for customer relationship management, sales, and support.");
 				
 	}
 	@Test(priority=2)

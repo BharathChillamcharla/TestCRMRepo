@@ -1,15 +1,10 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Test the testcases" parallel="tests" thread-count="5">
- 
-  
-  <test name="FREECRM test1">
-   
-    <classes>
+ <test name="FREECRM test1">  
+  <classes>
      <class name="com.crm.qa.testcases.LoginPageTest"> </class>
  </classes>
  </test>
-
- 
 
 
 
